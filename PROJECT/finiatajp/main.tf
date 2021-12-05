@@ -80,7 +80,7 @@ nome_SG_ec2 = "SG_EC2_EFS"
 
    ami_id = var.amid
   AZregiaoDC     = local.AZregiaoDC
-  instance_type     = "t3.medium"
+  instance_type     = "t3.micro"
   key_par_name = var.key_par_name
 
 iamrole_name = var.iamrole_name
@@ -106,7 +106,7 @@ module "all_jenkins_linux_EC2_2" {
 
    ami_id = var.amid
   AZregiaoDC     = local.AZregiaoDC
-  instance_type     = "t3.medium"
+  instance_type     = "t3.micro"
   key_par_name = var.key_par_name
 
 iamrole_name = var.iamrole_name
